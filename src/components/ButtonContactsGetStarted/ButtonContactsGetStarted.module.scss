@@ -1,0 +1,27 @@
+.contactsBtnGetStarted {
+  width: 120px;
+  height: 43px;
+  background-color: #083049;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 19px;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  border: 1px solid #083049;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: #f3f5f7;
+    color: #083049;
+  }
+}
+
+@media (max-width: 1020px) {
+  .contactsBtnGetStarted {
+    width: 318px;
+  }
+}

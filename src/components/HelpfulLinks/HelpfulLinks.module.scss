@@ -1,0 +1,22 @@
+.listing {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+.listingTitle {
+  // margin-right: 38px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+.listingArrow {
+  width: 12px;
+}

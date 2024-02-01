@@ -1,0 +1,140 @@
+.commonContainer {
+  margin-bottom: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.webinarContainerRelocate {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 660px;
+  max-height: 360px;
+  margin-bottom: 24px;
+  img {
+    width: 660px;
+    height: 360px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+.webinarContainer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 540px;
+  max-height: 360px;
+  margin-bottom: 24px;
+  img {
+    width: 540px;
+    height: 360px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+}
+
+.webinarText {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 209px;
+  text-align: center;
+}
+// .playContainer {
+//   position: absolute;
+//   max-width: 80px;
+//   max-height: 80px;
+//   left: 48%;
+//   top: 5px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   cursor: pointer;
+//   img {
+//     width: 80px;
+//     height: 80px;
+//   }
+// }
+.videoStyles {
+  border-radius: 20px;
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+@media (max-width: 1050px) {
+  .playContainer {
+    right: 300px;
+    top: 237px;
+  }
+}
+
+@media (max-width: 980px) {
+  .playContainer {
+    right: 265px;
+    top: 185px;
+  }
+
+  .videoStyles {
+    border-radius: 20px;
+    width: 729px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+}
+
+@media (max-width: 860px) {
+  .playContainer {
+    position: absolute;
+    right: 195px;
+    top: 161px;
+  }
+
+  .videoStyles {
+    border-radius: 20px;
+    width: 729px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+}
+
+@media (max-width: 720px) {
+  .playContainer {
+    position: absolute;
+    right: 102px;
+    top: 80px;
+    max-width: 30px;
+    max-height: 30px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .videoStyles {
+    border-radius: 20px;
+    width: 358px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+  }
+}
+
+@media (max-width: 1100px) {
+  .webinarContainer {
+    max-width: 1100px;
+    max-height: 870px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .commonContainer {
+    margin-bottom: 50px;
+  }
+}

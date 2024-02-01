@@ -1,0 +1,393 @@
+.aboutSection {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sectionTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.commonContainer {
+  display: flex;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+.visionContainer {
+  max-width: 541px;
+  margin-right: 40px;
+}
+.span {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.spanFacts {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.visionTitle {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  text-align: center;
+  width: 100%;
+}
+.visionImgContainer {
+  max-width: 540px;
+  img {
+    width: 100%;
+    border-radius: 7px;
+  }
+}
+.factsContainer {
+  display: flex;
+}
+.factsWrapper {
+  max-width: 290px;
+  margin-right: 40px;
+}
+.borderBottom {
+  border-bottom: 1px solid #e6e6e6;
+  height: 1px;
+  width: 290px;
+  margin-bottom: 20px;
+}
+.spanGreen {
+  text-transform: uppercase;
+  color: #64b930;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 4px;
+}
+.additionalGreen {
+  color: #64b930;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+}
+.description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #030303;
+  margin-bottom: 32px;
+}
+.infoWrapper {
+  display: block;
+}
+.resources {
+  background-color: #083049;
+  max-width: 210px;
+  padding: 15px 12px 12px 12px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.listIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.resourcesTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.wrapperContainer {
+  position: relative;
+  max-width: 731px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.storyContainer {
+  max-width: 394px;
+  max-height: 542px;
+  img {
+    width: 394px;
+    height: 480px;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+  }
+}
+.textContainer {
+  display: flex;
+  position: absolute;
+  top: 65px;
+  right: 0;
+  width: 376px;
+  height: 353px;
+  padding: 40px 20px;
+  border: 2px solid #dfdfdf;
+  background-color: #fff;
+  border-radius: 8px;
+  align-items: flex-start;
+  img {
+    width: 40px;
+    display: inline;
+    margin-right: 17px;
+  }
+  p {
+    max-width: 280px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+.wrapperServices {
+  max-width: 584px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+.servicesTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.servicesText {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+}
+.sliderCard {
+  max-width: 272px;
+  max-height: 150px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.sliderCard:hover {
+  transform: scale(1);
+  cursor: pointer;
+}
+.cardTextHoverHide {
+  display: none;
+}
+.cardTextHoverShow {
+  width: 272px;
+  height: 151px;
+  position: absolute;
+  border-radius: 8px;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  span {
+    width: 100%;
+    top: 40%;
+    left: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+  }
+}
+.purposeTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 20px;
+}
+.purposeText {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+.valuesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 38px;
+  column-gap: 38px;
+  margin-bottom: 60px;
+}
+.circularTitle {
+  max-width: 832px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.circularImgContainer {
+  max-width: 904px;
+  max-height: 701px;
+  margin-right: auto;
+  margin-left: auto;
+  img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1150px) {
+  .aboutSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .commonContainer {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .visionContainer {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .visionImgContainer {
+    max-width: 1000px;
+    margin-bottom: 24px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .factsContainer {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 779px) {
+  .sliderCard {
+    max-width: 220px;
+    max-height: 150px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .sliderCard:hover {
+    transform: scale(1);
+    cursor: pointer;
+  }
+  .cardTextHoverShow {
+    width: 220px;
+    height: 122px;
+    position: absolute;
+    border-radius: 8px;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .wrapperContainer {
+    position: relative;
+    max-width: 358px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .storyContainer {
+    max-width: 206px;
+    max-height: 283px;
+    img {
+      width: 206px;
+      height: 283px;
+    }
+  }
+  .textContainer {
+    display: flex;
+    position: absolute;
+    top: 17px;
+    right: 0;
+    width: 199px;
+    height: 249px;
+    padding: 20px 10px;
+    align-items: flex-start;
+    img {
+      width: 15px;
+      display: inline;
+      margin-right: 7px;
+    }
+    p {
+      max-width: 280px;
+      font-size: 12px;
+      line-height: 19px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .sectionTitle,
+  .visionTitle,
+  .servicesTitle,
+  .purposeTitle,
+  .circularTitle {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .purposeText {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .sliderCard {
+    max-width: 120px;
+    max-height: 90px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .cardTextHoverShow {
+    width: 120px;
+    height: 67px;
+    position: absolute;
+    border-radius: 8px;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    span {
+      width: 100%;
+      top: 30%;
+      left: 0px;
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+  .valuesWrapper {
+    row-gap: 75px;
+    column-gap: 25px;
+  }
+}
+@media (max-width: 550px) {
+  .factsContainer {
+    flex-direction: column;
+  }
+
+  .resources {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+  }
+}

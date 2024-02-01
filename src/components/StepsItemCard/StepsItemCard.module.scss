@@ -1,0 +1,49 @@
+.stepsItem {
+  max-width: 346px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  img{
+    width: 346px;
+  }
+}
+
+.spanStep {
+  margin-top: 13px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+}
+.stepsItemDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+  img {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+  }
+}
+.stepsItemDescriptionText {
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  text-align: start;
+}
+
+@media (max-width: 700px) {
+  .stepsItemDescriptionText {
+    line-height: 17px;
+    font-size: 12px;
+  }
+  .spanStep {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

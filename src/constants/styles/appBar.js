@@ -1,0 +1,16 @@
+export const appBarStyles = {
+  width: "100%",
+  maxWidth: "1120px",
+  alignItems: "center",
+  padding: "20px 0",
+  fontFamily: "Montserrat, sans-serif",
+  background: "#fff",
+  position: "relative",
+  boxShadow: "none",
+  display: "flex",
+  justifyContent: "space-between",
+  marginRight: "auto",
+  marginLeft: "auto",
+  // marginBottom: "20px",
+  marginBottom: "10px",
+};

@@ -1,0 +1,412 @@
+.heroContainer {
+  max-width: 1120px;
+  height: 630px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  background-image: url("../../assets/hero.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+.heroTitle{
+color: #fff;
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+
+text-align: center;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+// .heroImg {
+//   width: 100%;
+// }
+
+.commonSection {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sectionTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 15px;
+}
+.sectionText {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.containerCard {
+  display: flex;
+  justify-content: space-between;
+}
+.listingsTitle,
+.benefitsTitle {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+.finalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  text-align: center;
+  max-width: 850px;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.finalText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  margin-right: 12px;
+}
+.thinArrow {
+  width: 13px;
+}
+.benefitsContainer {
+  display: flex;
+  background-color: #f9f9f9;
+  max-width: 1120px;
+}
+.benefitsImage {
+  max-width: 540px;
+  border-radius: 12px;
+  img {
+    width: 100%;
+  }
+}
+.logo {
+  width: 156px;
+  height: 80px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+.logoDescr {
+  width: 156px;
+  height: 80px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.benefitsDescription {
+  max-width: 580px;
+  padding-left: 40px;
+  border-radius: 16px;
+  padding-bottom: 20px;
+}
+.benefitsText {
+  max-width: 371px;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.marketPlaceTitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+.marketPlaceText {
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.groupImageContainer {
+  margin-top: 40px;
+  max-width: 1120px;
+  max-height: 722px;
+}
+.groupImage {
+  width: 100%;
+}
+.reviewsTitle {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  max-width: 684px;
+}
+.containerInstagramCard {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+.sliderItem {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 12px;
+}
+.sliderWrapper {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.cardText {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  max-width: 200px;
+  margin-bottom: 12px;
+  height: 40px;
+}
+
+.joinNowBtn {
+  width: 131px;
+  height: 41px;
+  border-radius: 100px;
+  background: #64b930;
+  border: 1px solid #64b930;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  &:hover {
+    background-color: #f9f9f9;
+    color: #083049;
+  }
+}
+
+@media (max-width: 1120px) {
+  .containerInstagramCard {
+    row-gap: 20px;
+    column-gap: 20px;
+  }
+}
+@media (max-width: 1065px) {
+  .containerInstagramCard {
+    row-gap: 20px;
+    column-gap: 20px;
+    max-width: 580px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 1050px) {
+  .containerCard {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .sliderCard {
+    max-width: 180px;
+  }
+  .sliderItem {
+    width: 180px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 950px) {
+  .sliderCard {
+    max-width: 160px;
+  }
+  .sliderItem {
+    width: 160px;
+    height: 120px;
+  }
+  .cardText {
+    font-size: 12px;
+    line-height: 18px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    padding-left: 16px;
+    padding-left: 16px;
+  }
+  .benefitsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .benefitsImage {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .benefitsDescription {
+    padding-left: 0;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .benefitsText {
+    max-width: 900px;
+  }
+
+  .logoDescr {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .benefitsBtn {
+    width: 358px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .btnContainer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 358px;
+    justify-content: center;
+    text-align: center;
+  }
+  .thinArrow {
+    display: none;
+  }
+  .commonSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .marketPlaceTitle {
+    text-align: center;
+  }
+  .reviewsTitle {
+    text-align: center;
+    max-width: 900px;
+  }
+  .joinNowBtn {
+    width: 326px;
+    height: 41px;
+    border-radius: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #083049;
+    border: 1px solid #083049;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    &:hover {
+      background-color: #f9f9f9;
+      color: #083049;
+    }
+  }
+  .benefitsText {
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 540px;
+  }
+}
+@media (max-width: 860px) {
+   .heroContainer {
+     height: 296px;
+    margin-right: 0;
+    margin-left: 0;
+    background-size: cover;
+   }
+  .heroTitle{
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 80px;
+    }
+  .sectionTitle {
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 10px;
+  }
+  .sectionText {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+
+  .benefitsText {
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 16px;
+    margin-left: 16px;
+    max-width: 326px;
+  }
+  .marketPlaceTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .marketPlaceText {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .reviewsTitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .listingsTitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .benefitsDescription {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .benefitsTitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .finalContainer {
+    margin-top: 30px;
+  }
+  .groupImageContainer {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sliderContainer {
+    max-width: 450px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 565px) {
+  .containerInstagramCard {
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media(max-width:389px){
+  .heroContainerResponsive{
+    max-width: 1120px;
+    height: 296px;
+    margin-right: 0;
+    margin-left: 0;
+    background-size: cover;
+    margin-bottom: 40px;
+    background-image: url("../../assets/responsiveHero.webp");
+    background-repeat: no-repeat;
+    border-radius: 12px;
+  }
+}

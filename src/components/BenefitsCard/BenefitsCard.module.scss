@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  max-width: 360px;
+  max-height: 80px;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px 0px #00000014;
+  overflow: hidden;
+
+  img {
+    max-width: 130px;
+    margin-right: 20px;
+  }
+  h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 165px;
+  }
+}
+
+@media (max-width: 749px) {
+  .card {
+    display: block;
+    max-width: 110px;
+    max-height: 149px;
+    align-items: center;
+    text-align: center;
+
+    img {
+      max-width: 110px;
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
+    h4 {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 17px;
+      height: 51px;
+      width: 100px;
+      margin-right: auto;
+      margin-left: auto;
+      align-items: center;
+      display: flex;
+    }
+  }
+}

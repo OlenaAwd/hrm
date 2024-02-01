@@ -1,0 +1,10 @@
+.titleSection {
+  text-align: left;
+  margin-bottom: 20px;
+  max-width: 1150px;
+}
+@media (max-width: 860px) {
+  .titleSection {
+    font-size: 18px;
+  }
+}

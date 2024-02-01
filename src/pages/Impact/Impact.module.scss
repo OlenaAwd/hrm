@@ -1,0 +1,163 @@
+.topSection {
+  max-width: 1120px;
+  display: flex;
+  padding-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.topContentWrapper {
+  padding-top: 141px;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: 40px;
+}
+.topContentTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.topContentText {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.topImgWrapper {
+  max-width: 540px;
+  img {
+    width: 100%;
+  }
+}
+.impactBg {
+  max-width: 1440px;
+  max-height: 300px;
+  margin-bottom: 40px;
+  img {
+    width: 100%;
+  }
+}
+
+.goalSection {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.textGoals {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.goalLogoContainer {
+  display: flex;
+  margin-bottom: 40px;
+}
+.logoImgContainer {
+  margin-right: 40px;
+  img {
+    max-width: 160px;
+    max-height: 160px;
+  }
+}
+.goalLogoText {
+  max-width: 920px;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 41px;
+  padding-bottom: 41px;
+}
+.goalFinalText {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.logoImgContainerFinal {
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  img {
+    max-width: 160px;
+    max-height: 160px;
+  }
+}
+.imgCards {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 24px;
+  img {
+    max-width: 216px;
+    max-height: 451px;
+  }
+}
+
+@media (max-width: 900px) {
+  .topSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .topContentWrapper {
+    padding-top: 10px;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .topImgWrapper {
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    img {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .topContentTitle {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+  }
+  .textGoals,
+  .goalLogoText,
+  .goalFinalText {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  .goalLogoContainer {
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .logoImgContainer {
+    margin-right: auto;
+    margin-left: auto;
+    img {
+      max-width: 160px;
+      max-height: 160px;
+    }
+  }
+  .logoImgContainerFinal {
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+  }
+  .imgCards {
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    max-width: 700px;
+  }
+}
+@media (max-width: 500px) {
+  .imgCards {
+    max-width: 400px;
+    img {
+      max-width: 171px;
+      max-height: 270px;
+    }
+  }
+}

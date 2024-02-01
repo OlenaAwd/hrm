@@ -1,0 +1,55 @@
+.arrLeft{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 20;
+  &:hover{
+    opacity: 1;
+  }
+}
+.arrRight{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  opacity: 0.3;
+  cursor: pointer;
+  z-index: 20;
+  &:hover{
+    opacity: 1;
+  }
+}
+.absolute{
+    position:absolute;
+}
+.hidden{
+    display: none;
+}
+.wrapper {
+    max-width: 540px;
+    max-height: 299px;
+    img {
+      width: 540px;
+      height: 299px;
+      border-radius: 8px;
+}
+  }
+  
+  .container {
+    max-width: 540px;
+  }
+  
+
+
+  

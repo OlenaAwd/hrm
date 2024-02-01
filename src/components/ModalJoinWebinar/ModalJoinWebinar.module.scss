@@ -1,0 +1,186 @@
+.btnWeb {
+  width: 210px;
+  height: 41px;
+  border: 1px solid #083049;
+  border-radius: 100px;
+  color: #083049;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  &:hover {
+    background-color: #083049;
+    color: #fff;
+  }
+}
+.imgWeb {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  max-width: 269px;
+  max-height: 320px;
+  margin-right: 20px;
+}
+.close {
+  width: 17px;
+  height: 17px;
+}
+.contentWrapper {
+  padding-top: 20px;
+  max-width: 399px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+}
+.contentTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.contentTitleSecond {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.contentText {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.email {
+  width: 399px;
+  height: 46px;
+  background: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+.signBtn {
+  width: 399px;
+  height: 46px;
+  background: #083049;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  &:hover {
+    background: #1976d2;
+  }
+  // &:disabled {
+  //   background-color: #cccccc;
+  //   color: #ffffff;
+  // }
+}
+.helperText {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-left: 20px;
+}
+@media (max-width: 782px) {
+  .contentWrapper {
+    padding-top: 20px;
+    max-width: 299px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+  }
+  .email {
+    width: 285px;
+    height: 38px;
+    background: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 40px;
+    padding: 10px 20px;
+    margin-bottom: 12px;
+  }
+  .signBtn {
+    width: 285px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .contentText {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .contentTitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .close {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 860px) {
+  .btnWeb {
+    width: 158px;
+    height: 41px;
+  }
+  .btnContainer {
+    max-width: 158px;
+    margin-left: 16px;
+  }
+}
+@media (max-width: 630px) {
+  .imgWeb {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    max-width: 169px;
+    max-height: auto;
+    margin-right: 5px;
+  }
+
+  .contentWrapper {
+    padding-top: 20px;
+    max-width: 199px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+  }
+  .email {
+    width: 200px;
+    height: 35px;
+  }
+  .signBtn {
+    width: 200px;
+    height: 35px;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .contentTitle {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+  }
+  .contentText {
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 10px;
+  }
+  .contentTitleSecond {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,51 @@
+.main {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 24px;
+  background: #083049;
+  height: 198px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.mainTitle {
+  color: #fff;
+  font-weight: 700;
+  line-height: 38px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.imagesWrapper {
+  display: flex;
+  max-width: 374px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  .appleStoreImg {
+    width: 164px;
+    height: 56px;
+  }
+  .googleStoreImg {
+    width: 186px;
+    height: 56px;
+  }
+}
+
+@media (max-width: 860px) {
+  .mainTitle {
+    line-height: 29px;
+    font-size: 18px;
+  }
+  .imagesWrapper {
+    max-width: 312px;
+    .appleStoreImg {
+      width: 135px;
+      height: 46px;
+    }
+    .googleStoreImg {
+      width: 153px;
+      height: 46px;
+    }
+  }
+}

@@ -1,0 +1,1157 @@
+main {
+  overflow-x: hidden;
+}
+
+.commonSection {
+  max-width: 1210px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.videoStyles {
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  width: 1140px;
+  height: 630px;
+  margin-bottom: 40px;
+
+}
+.coverImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.commonTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.sectionText {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.subContainer {
+  margin-bottom: 40px;
+  max-width: 734px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.subText {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+.videoContainer {
+  max-width: 1140px;
+  border-radius: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.memberBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.memberBtn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  width: 239px;
+  height: 41px;
+  background: #083049;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #083049;
+  &:hover {
+    background: #fff;
+    color: #083049;
+  }
+}
+.benefitsServicesContent {
+  max-width: 764px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+.benefitsServicesText {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+.membersTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.containerInstagramSlider {
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.stepsTitle {
+  max-width: 926px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.containerStepSlider {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+.stepsSubTitle {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #030303;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+.coachingDescription {
+  font-size: 16px;
+  max-width: 734px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.reasonsTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 926px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.chipsContainer {
+  max-width: 832px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+.chip {
+  border: 1px solid #cdcdcd;
+  border-radius: 100px;
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 35px;
+  min-width: 128px;
+  justify-content: center;
+  align-items: center;
+  color: #030303;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+.relocationContainer {
+  display: flex;
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.relocationImgContainer {
+  margin-top: 60px;
+  max-width: 540px;
+  margin-right: 40px;
+  img {
+    width: 100%;
+  }
+}
+.relocationContentContainer {
+  margin-top: 137px;
+  max-width: 540px;
+}
+.relocationContentTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  margin-bottom: 20px;
+}
+.relocationContentSubTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 12px;
+}
+
+.relocationContentText {
+  font-size: 16px;
+  line-height: 26px;
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+.coachingTitle {
+  max-width: 730px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.containerCardsCoach {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1120px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.exclusiveSection {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 60px;
+}
+.exclusiveWrapper {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.exclusiveImg {
+  max-width: 346px;
+  margin-top: 22px;
+  img {
+    width: 100%;
+  }
+}
+.exclusiveCenter {
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  padding-right: 33px;
+  padding-left: 33px;
+  max-width: 347px;
+}
+.span {
+  color: #64b930;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 77px;
+  text-align: center;
+}
+
+.exclusiveContainerSubTitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.exclusiveContainerDescr {
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.btnExclusive {
+  padding: 12px 32px;
+  max-width: 280px;
+  height: 44px;
+  background: #083049;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  margin-right: 12px;
+  justify-content: space-between;
+  align-items: center;
+  &:hover {
+    background: #1976d2;
+  }
+}
+.buttonImg {
+  width: 20px;
+  height: 18px;
+  margin-left: 12px;
+  display: inline-flex;
+}
+
+.computerContainer {
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  img {
+    width: 100%;
+  }
+}
+.runMemberTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contentWrapper {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contentContainerMember {
+  max-width: 556px;
+}
+.stepTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 28px;
+}
+.stepText {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.stepTextSpan {
+  font-weight: 600;
+}
+.imgContainerMember {
+  max-width: 443px;
+  max-height: 290px;
+  img {
+    width: 100%;
+    border-radius: 12px;
+  }
+}
+.hrm {
+  max-width: 1440px;
+  background: #f3f5f7;
+  display: flex;
+  justify-content: center;
+}
+.hrmInner {
+  max-width: 1120px;
+  display: flex;
+  margin-bottom: 40px;
+}
+.hrmImg {
+  max-width: 443px;
+  max-height: 454px;
+  margin-right: 120px;
+  img {
+    width: 100%;
+  }
+}
+.hrmContent {
+  padding-top: 85px;
+  max-width: 557px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.hrmTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+
+  margin-bottom: 40px;
+}
+.hrmText {
+  font-size: 16px;
+  line-height: 26px;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.instTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  margin-bottom: 40px;
+  max-width: 684px;
+}
+.containerInstagramCard {
+  display: flex;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.benefitsHrmContainer {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+.benefitsHrmText {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+.membershipFastContainer {
+  max-width: 926px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+.membershipFastText {
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+}
+.membershipLatestBenefitsText {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  max-width: 546px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+.relocationValuesContainer {
+  max-width: 734px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+
+.relocationSubTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+.gridSteps {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 15px;
+  img {
+    border-radius: 8px;
+  }
+}
+.groupImageContainer {
+  max-width: 915px;
+  max-height: 590px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+  img {
+    width: 100%;
+  }
+}
+
+.learnMoreChip {
+  margin-right: auto;
+  margin-left: auto;
+  width: 146px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #083049;
+  border: 1px solid #083049;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.relocationValContainer {
+  max-width: 734px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+}
+.poweredWrapper {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.poweredContent {
+  max-width: 520px;
+  margin-right: 60px;
+  margin-bottom: 24px;
+}
+
+.poweredTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+.poweredText {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.poweredSubText {
+  font-size: 14px;
+  line-height: 22px;
+}
+.poweredImg {
+  max-width: 540px;
+  img {
+    width: 100%;
+  }
+}
+.investmentsSubText {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.benefitsCardsContainer {
+  max-width: 1120px;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  gap: 20px 20px;
+}
+.containerInstagramMembersCard {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+.wrapper7Days {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f9f9f9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.logoContainer {
+  max-width: 144px;
+  max-height: 144px;
+  margin-right: 60px;
+  img {
+    width: 100%;
+  }
+}
+.riskFreeTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  margin-bottom: 16px;
+}
+.riskFreeText {
+  max-width: 802px;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.riskSpan {
+  font-weight: 700;
+}
+.runMemberAdditionalTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 936px;
+}
+
+.memberCardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 740px;
+  column-gap: 20px;
+  row-gap: 20px;
+  justify-content: center;
+}
+
+.accordionContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.buzzSection {
+  padding-top: 60px;
+}
+.checkNew {
+  display: none;
+}
+
+.gst {
+  color: #083049;
+  font-size: 12px;
+  line-height: 19px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.sliderCard {
+  max-width: 272px;
+  max-height: 150px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.sliderCard:hover {
+  transform: scale(1);
+  cursor: pointer;
+}
+.cardTextHoverHide {
+  display: none;
+}
+.cardTextHoverShow {
+  width: 272px;
+  height: 151px;
+  position: absolute;
+  border-radius: 8px;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  span {
+    width: 100%;
+    top: 40%;
+    left: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+  }
+}
+.sliderCardStep {
+  position: relative;
+}
+.textContainer {
+  margin: auto;
+  position: absolute;
+  content: " ";
+  bottom: 16px;
+  border-radius: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 6px 16px;
+  font-size: 14px;
+  line-height: 22px;
+  width: max-content;
+}
+@media(max-width:1160px){
+  .videoStyles {
+    width: 720px;
+    height: 480px;
+   
+  }
+}
+
+@media (max-width: 1120px) {
+  .sliderCard {
+    max-width: 260px;
+    img {
+      width: 100%;
+    }
+  }
+  .containerInstagramCard {
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1100px) {
+  .containerCardsCoach {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1060px;
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-content: center;
+  }
+  .sliderCard {
+    max-width: 240px;
+    img {
+      width: 100%;
+    }
+  }
+  .sliderCardStep {
+    max-width: 320px;
+    img {
+      width: 100%;
+    }
+  }
+  .accordionContainer {
+    display: block;
+  }
+  .accordionContainerUpper {
+    margin-bottom: 60px;
+  }
+
+  .hrmInner {
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .hrmImg {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .poweredWrapper {
+    flex-direction: column;
+    max-width: 600px;
+  }
+}
+@media (max-width: 1024px) {
+  .stepText {
+    margin-bottom: 0;
+  }
+  .stepChange {
+    flex-direction: column-reverse;
+    max-width: 445px;
+
+    .imgContainerMember {
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 16px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .contentWrapper {
+    max-width: 445px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+  }
+  .imgContainerMember {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .hrmTitle {
+    text-align: center;
+  }
+  .hrmText {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 990px) {
+  .sliderCardStep {
+    max-width: 300px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .sliderCardStep {
+    max-width: 171px;
+    max-height: 190px;
+    img {
+      width: 171px;
+      height: 190px;
+    }
+  }
+  .textContainer {
+    font-size: 12px;
+    line-height: 19px;
+    max-width: 170px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .benefitsCardsContainer {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  }
+  .relocationContainer {
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .relocationImgContainer {
+    margin-right: auto;
+    margin-left: auto;
+    img {
+      width: 100%;
+    }
+  }
+  .relocationContentContainer {
+    margin-top: 24px;
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .relocationContentTitle,
+  .relocationContentSubTitle,
+  .relocationContentText {
+    text-align: center;
+  }
+}
+
+@media (max-width: 832px) {
+  .hrm {
+    margin-top: 26px;
+    margin-bottom: 50px;
+  }
+  .hrmContent {
+    padding-top: 24px;
+  }
+  .hrmTitle {
+    margin-bottom: 24px;
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .benefitsHrmText {
+    max-width: 358px;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    &:not(:last-child) {
+      margin-bottom: 24px;
+    }
+  }
+  .videoStyles {
+    width: 358px;
+    height: 239px;
+  }
+  .coachingDescription {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 24px;
+  }
+  .relocationValuesContainer {
+    padding-top: 40px;
+  }
+  .relocationValContainer {
+    margin-top: 50px;
+  }
+  .groupImageContainer {
+    margin-bottom: 50px;
+  }
+
+  .containerInstagramMembersCard {
+    justify-content: start;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+  .chipsContainer {
+    max-width: 390px;
+    display: flex;
+    column-gap: 14px;
+    row-gap: 14px;
+  }
+  .chip {
+    border: 1px solid #cdcdcd;
+    border-radius: 100px;
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    min-height: 35px;
+    min-width: 35px;
+    max-width: 248px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 19px;
+  }
+}
+
+@media (max-width: 749px) {
+  .benefitsCardsContainer {
+    display: -ms-inline-grid;
+    max-width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  }
+  .sliderCard {
+    max-width: 220px;
+    img {
+      width: 100%;
+    }
+  }
+  .accordionContainer {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .sliderCard {
+    max-width: 120px;
+    max-height: 90px;
+    img {
+      width: 120px;
+      height: 90px;
+    }
+  }
+  .commonSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .commonTitle,
+  .stepsTitle,
+  .relocationContentTitle,
+  .runMemberTitle,
+  .instTitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .sectionText,
+  .relocationContentSubTitle {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+  .contentWrapper {
+    max-width: 358px;
+    .imgContainerMember {
+      width: 358px;
+      height: 181px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .stepChange {
+    .imgContainerMember {
+      width: 358px;
+      height: 181px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .stepText,
+  .hrmText {
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+  }
+
+  .subText,
+  .benefitsServicesText,
+  .relocationContentText,
+  .membershipFastText,
+  .poweredText,
+  .poweredSubText,
+  .investmentsSubText,
+  .riskFreeText {
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+  }
+  .poweredSubText {
+    text-align: start;
+  }
+  .membersTitle,
+  .reasonsTitle,
+  .coachingTitle,
+  .riskFreeTitle {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .stepTitle,
+  .membershipLatestBenefitsText,
+  .relocationContentSubTitle,
+  .relocationContentText,
+  .relocationSubTitle,
+  .poweredTitle {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .poweredText {
+    text-align: start;
+  }
+  .videoContainer {
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    width: 360px;
+    margin-bottom: 0;
+  }
+
+  .exclusiveWrapper {
+    max-width: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .exclusiveImg {
+    max-width: 700px;
+    margin-top: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    img {
+      width: 100%;
+    }
+  }
+  .exclusiveCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-right: 33px;
+    padding-left: 33px;
+    max-width: 700px;
+  }
+  .check {
+    display: none;
+  }
+  .checkNew {
+    display: block;
+  }
+  .containerInstagramCard {
+    row-gap: 20px;
+    column-gap: 0px;
+    max-width: 600px;
+    justify-content: space-evenly;
+  }
+  .gridSteps {
+    max-width: 380px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+    img {
+      border-radius: 8px;
+      max-width: 171px;
+    }
+  }
+  .relocationSubTitle {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .relocationContentText {
+    padding-right: 16px;
+    padding-left: 16px;
+    text-align: justify;
+  }
+  .stepsSubTitle {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .learnMoreChip {
+    margin-right: auto;
+    margin-left: auto;
+    width: 355px;
+    margin-bottom: 24px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #083049;
+    border: 1px solid #083049;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerInstagramMembersCard {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+  }
+  .wrapper7Days {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .logoContainer {
+    max-width: 200px;
+    margin-right: 0px;
+    margin-bottom: 32px;
+    img {
+      width: 100%;
+    }
+  }
+  .riskFreeText {
+    text-align: justify;
+  }
+}

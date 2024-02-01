@@ -1,0 +1,99 @@
+.commonSection {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.imgContainer {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  max-width: 260px;
+}
+.sectionTitle {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+.additionalSectionTitle {
+  margin-top: 50px;
+}
+.containerText {
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.text {
+  max-width: 585px;
+  text-align: start;
+  margin-bottom: 20px;
+}
+.pointContainer {
+  display: flex;
+  max-width: 730px;
+  padding-left: 25px;
+}
+.pointTitle {
+  margin-right: 20px;
+}
+.subPointContainer {
+  display: flex;
+  padding-left: 65px;
+  max-width: 620px;
+}
+.privacyItem {
+  margin-bottom: 20px;
+  h3 {
+    margin-bottom: 15px;
+  }
+}
+//
+.privacyItemUse {
+  margin-bottom: 20px;
+  h3 {
+    margin-bottom: 15px;
+  }
+}
+.pointTitleUse {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  list-style: inside;
+}
+.subPointContainerUse {
+  display: flex;
+  flex-direction: column;
+  padding-left: 65px;
+  max-width: 620px;
+  margin-bottom: 20px;
+}
+.subPointContainerInnerUse {
+  display: flex;
+}
+.pointContainerUse {
+  display: flex;
+}
+
+@media (max-width: 460px) {
+  .privacyItem {
+    h3 {
+      font-size: 17px;
+      line-height: 20px;
+    }
+  }
+  .privacyItemUse {
+    h3 {
+      font-size: 17px;
+    }
+  }
+  .pointContainer,
+  .subPointContainer {
+    p {
+      font-size: 12px;
+    }
+  }
+}

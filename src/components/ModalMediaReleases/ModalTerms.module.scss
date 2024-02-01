@@ -1,0 +1,20 @@
+.linkDownload,
+.linkDownload:visited {
+  color: #083049;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.kitDescription {
+  font-size: 14px;
+  line-height: 22px;
+  text-align: start;
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}

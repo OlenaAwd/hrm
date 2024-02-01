@@ -1,0 +1,256 @@
+.commonSection {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 63px;
+  margin-bottom: 40px;
+}
+
+.videoStyles {
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  width: 1140px;
+  height: 630px;
+  // width: 660px;
+  // height: 360px;
+  border: 1px solid #fefefe;
+}
+.videoContainer {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 24px;
+}
+.coverImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.videoText {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.commonTitle {
+  margin-top: 43px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 15px;
+}
+.sectionText {
+  font-size: 20px;
+  line-height: 24px;
+}
+.sectionExisting {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  margin-bottom: 43px;
+  margin-top: 50px;
+}
+.commonSectionTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.videoBg {
+  background-image: url("../../assets/RelocateVerBuyVideo.png");
+  width: 540px;
+  height: 360px;
+  border-radius: 12px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sliderCard {
+  width: 250px;
+  height: 337px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  margin-right: 40px;
+}
+.sliderItem {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 250px;
+  height: 190px;
+  margin-bottom: 12px;
+}
+
+.cardBody {
+  height: 136px;
+  display: flex;
+  align-items: center;
+  padding-right: 17px;
+  padding-left: 17px;
+}
+.cardText {
+  font-size: 12px;
+  line-height: 17px;
+  text-align: left;
+  max-width: 216px;
+  margin-bottom: 12px;
+}
+
+.questionSection {
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1120px;
+  margin-bottom: 60px;
+}
+.sectionTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  max-width: 830px;
+  margin-bottom: 40px;
+}
+.accordionContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.accordionText {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media (max-width: 1100px) {
+  .commonTitle {
+    text-align: center;
+  }
+  .sectionText {
+    text-align: center;
+  }
+  .accordionContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sectionTitle {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 1050px) {
+  .videoStyles {
+    border-radius: 20px;
+    // width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    // height: 630px;
+    border: 1px solid #fefefe;
+  }
+}
+
+@media (max-width: 860px) {
+  .commonSection {
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    margin-bottom: 24px;
+  }
+  .commonTitle {
+    margin-top: 35px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  .sectionText {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .videoContainer {
+    height: 320px;
+  }
+  .videoStyles {
+    width: 420px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    height: 320px;
+    border: 1px solid #fefefe;
+  }
+  .videoText {
+    font-size: 12px;
+    line-height: 19px;
+    max-width: 358px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .commonSectionTitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    margin-bottom: 24px;
+  }
+  .cardText {
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+  .sectionExisting {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .sliderCard {
+    width: 200px;
+    height: 296px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin-right: 0px;
+    .sliderItem {
+      width: 100%;
+      height: 150px;
+      margin-bottom: 16px;
+    }
+  }
+  .questionSection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .commonTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sectionText {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .sectionExisting {
+    padding-top: 50px;
+    margin-bottom: 43px;
+  }
+
+  .sectionTitle {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}

@@ -1,0 +1,46 @@
+.hrm {
+  max-width: 1440px;
+  background: #f3f5f7;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: auto;
+  padding-left: auto;
+  padding-bottom: 60px;
+}
+.innerContainer {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+}
+.stepsList {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+.membersTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 700px) {
+  .membersTitle {
+    font-size: 18px;
+    line-height: 29px;
+  }
+  .stepsList {
+    max-width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    column-gap: 40px;
+    row-gap: 40px;
+  }
+  .hrm {
+    padding-bottom: 50px;
+  }
+}

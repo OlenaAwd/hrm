@@ -1,0 +1,32 @@
+.sliderContainer {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  max-height: 320px;
+}
+
+@media (max-width: 864px) {
+  .sliderContainer {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 690px) {
+  .sliderContainer {
+    max-width: 690px;
+  }
+}
+@media (max-width: 620px) {
+  .sliderContainer {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 440px) {
+  .sliderContainer {
+    max-width: 450px;
+  }
+}

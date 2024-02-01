@@ -1,0 +1,550 @@
+.commonSection {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  overflow-x: hidden;
+}
+.sectionTitle {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  margin-bottom: 15px;
+}
+.sectionText {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+.chipContainer {
+  max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+}
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.containerBackground {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1120px;
+  margin-bottom: 60px;
+  display: flex;
+}
+.newsImgWrapper {
+  max-width: 700px;
+  max-height: 420px;
+  border-radius: 6px;
+  margin-right: 43px;
+  img {
+    width: 100%;
+  }
+}
+
+.newsContainer {
+  max-width: 347px;
+  margin-top: 20px;
+}
+
+.webinarSection {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.wrapperWeb {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1120px;
+  border-radius: 24px;
+}
+.containerWebinar {
+  max-width: 705px;
+  width: 100%;
+  height: 456px;
+  background: #0c1d57;
+  border-bottom-left-radius: 24px;
+  border-top-left-radius: 24px;
+  padding-left: 40px;
+  color: #ffffff;
+  text-align: left;
+}
+.containerWebinarTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  max-width: 557px;
+  padding-top: 40px;
+  margin-bottom: 24px;
+}
+.containerWebinarSubTitle {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.webinarImg {
+  border-bottom-right-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.editorsTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 40px;
+}
+.editorsCardWrapper {
+  display: flex;
+  max-width: 1120px;
+}
+.editorsCardContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 580px;
+  margin-right: 57px;
+}
+.editorsContent {
+  max-width: 483px;
+  padding: 24px;
+  background: #f9fcff;
+  border-radius: 16px;
+}
+.editorsTitleContent {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 45px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 435px;
+}
+.checkboxWrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+.checkboxTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 2px;
+}
+.checkboxText {
+  font-size: 14px;
+  line-height: 22px;
+  max-width: 290px;
+}
+.privacyText {
+  max-width: 435px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.privacyLink,
+a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #083049;
+}
+.sectionWrapper {
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+
+.postsTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.titleBlogContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.sectionSubTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.newsWrapper {
+  display: flex;
+}
+.marketplaceTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  text-align: center;
+  max-width: 926px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+.marketplaceImgContainer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 540px;
+  max-height: 247px;
+  margin-bottom: 40px;
+}
+.marketplaceImg {
+  width: 100%;
+}
+
+.inputWrapperShort {
+  margin-bottom: 20px;
+  position: relative;
+  max-width: 435px;
+}
+.input {
+  outline: none;
+  width: 410px;
+  height: 54px;
+  border-top: 1px solid #bbbbbb;
+  border-left: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+  border-right: none;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding-left: 20px;
+}
+.btnSubscribe {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 2;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  transform: translateX(2px);
+  padding: 16px 20px;
+  width: 111px;
+  height: 54px;
+  background: #083049;
+  border-radius: 100px;
+  border: none;
+  &:hover {
+    background: #1976d2;
+  }
+  &:disabled {
+    // background-color: #cccccc;
+    cursor: not-allowed;
+  }
+}
+
+.inputWrapperLong {
+  max-width: 527px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.inputLong {
+  outline: none;
+  width: 450px;
+  height: 54px;
+  padding-left: 20px;
+  color: #454545;
+  border-top: 1px solid #bbbbbb;
+  border-left: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbbb;
+  border-right: none;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.btnSubmit {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  z-index: 2;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  transform: translateX(2px);
+  padding: 16px 20px;
+  width: 153px;
+  height: 54px;
+  background: #083049;
+  border-radius: 100px;
+  border: none;
+  &:hover {
+    background: #1976d2;
+  }
+  &:disabled {
+    // background-color: #cccccc;
+    cursor: not-allowed;
+  }
+}
+.helperText {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-left: 20px;
+}
+.helperTextLong {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-left: 43px;
+}
+
+@media (max-width: 1100px) {
+  .sectionTitle {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .sectionText {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .chipContainer {
+    max-width: 1120px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .containerBackground {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsContainer {
+    max-width: 1100px;
+  }
+  .wrapperWeb {
+    flex-direction: column;
+  }
+  .containerWebinar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 443px;
+    height: 310px;
+    padding-left: 0;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 24px;
+    text-align: center;
+  }
+
+  .webinarImg {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-top-right-radius: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -1px;
+  }
+  .editorsTitle {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    text-align: center;
+  }
+  .editorsCardWrapper {
+    flex-direction: column;
+  }
+  .editorsCardContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .editorsContent {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 700px;
+  }
+
+  .editorsTitleContent {
+    text-align: center;
+    max-width: 700px;
+  }
+}
+@media (max-width: 860px) {
+  .commonSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .sectionTitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+  .responsiveTitle {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .sectionText {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 24px;
+  }
+  .webinarSection {
+    margin-bottom: 50px;
+  }
+  .containerWebinar {
+    height: 293px;
+  }
+  .containerWebinarTitle {
+    font-size: 24px;
+    line-height: 38px;
+    max-width: 298px;
+    padding-top: 32px;
+    margin-bottom: 24px;
+    text-align: left;
+    margin-left: 16px;
+  }
+  .webinarImg {
+    height: 280px;
+    max-width: 443px;
+    width: 100%;
+    display: flex;
+    margin-top: -1px;
+  }
+  .containerWebinarSubTitle {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    text-align: left;
+    margin-right: 0;
+  }
+
+  .chipContainer {
+    row-gap: 10px;
+  }
+  .titleBlogContainer {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .titleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0px;
+  }
+  .editorsTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .editorsTitleContent {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+  .checkboxTitle {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .static {
+    padding-top: 0px;
+  }
+  .postsTitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 24px;
+  }
+  .sectionSubTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .newsWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+  }
+  .marketplaceTitle {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
+@media (max-width: 560px) {
+  .inputWrapperLong {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  }
+  .inputLong {
+    outline: none;
+    width: 320px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 510px) {
+  .input {
+    width: 350px;
+  }
+  .wrapperWeb {
+    max-width: 410px;
+  }
+  .containerWebinar {
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    padding-left: 0;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 24px;
+  }
+  .webinarImg {
+    width: 350px;
+  }
+  .inputWrapperLong {
+    max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+  }
+  .inputLong {
+    width: 270px;
+  }
+}
+
+@media (max-width: 440px) {
+  .newsImgWrapper {
+    max-width: 360px;
+    margin-right: 0px;
+    img {
+      width: 100%;
+    }
+  }
+  .newsContainer {
+    max-width: 360px;
+  }
+  .input {
+    width: 290px;
+  }
+}
+@media (max-width: 380px) {
+  .input {
+    width: 250px;
+  }
+}

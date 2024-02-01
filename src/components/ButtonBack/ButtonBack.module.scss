@@ -1,0 +1,16 @@
+.listing {
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+.listingTitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 9px;
+}
+.listingArrow {
+  width: 16px;
+  height: 15px;
+}

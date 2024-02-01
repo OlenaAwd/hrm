@@ -1,0 +1,101 @@
+.ebookCard {
+  display: flex;
+  max-width: 360px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px 0px #00000014;
+  border-radius: 8px;
+  margin: 5px;
+}
+.imgContainer {
+  max-width: 120px;
+  max-height: 160px;
+  margin-right: 20px;
+  img {
+    width: 120px;
+    height: 160px;
+    border-radius: 12px;
+  }
+}
+.textContainer {
+  text-align: left;
+}
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 12px;
+  max-width: 352px;
+}
+
+.input {
+  width: 552px;
+  height: 46px;
+  padding: 10px 20px;
+  border: 1px solid #dadada;
+  margin-bottom: 12px;
+  border-radius: 40px;
+}
+.btnContainer {
+  max-width: 552px;
+}
+
+.btnJoin {
+  font-family: Montserrat, sans-serif;
+  width: 552px;
+  height: 46px;
+  background: #083049;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  cursor: pointer;
+  border: none;
+  &:hover {
+    background-color: #1565c0;
+    border: 1px solid #1565c0;
+  }
+  &:disabled {
+    background-color: #cccccc;
+    border: none;
+  }
+}
+
+.linkDownload,
+.linkDownload:visited {
+  color: #fff;
+}
+
+.helperText {
+  color: #d32f2f;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+@media (max-width: 880px) {
+  .input {
+    width: 350px;
+  }
+  .btnContainer {
+    max-width: 350px;
+  }
+  .btnJoin {
+    width: 350px;
+  }
+}

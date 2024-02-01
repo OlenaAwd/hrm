@@ -1,0 +1,40 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 20px;
+  width: 250px;
+  height: 301px;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+}
+.cardImg {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  max-width: 250px;
+  height: 190px;
+  margin-bottom: 20px;
+}
+.cardBody {
+  line-height: 17px;
+  padding-left: 24px;
+}
+.cardName {
+  font-size: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.cardPosition {
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .cardContainer {
+    width: 171px;
+    height: 249px;
+  }
+  .cardImg {
+    max-width: 171px;
+    height: 150px;
+  }
+}
